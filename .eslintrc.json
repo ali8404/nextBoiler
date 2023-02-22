@@ -1,0 +1,11 @@
+
+{
+  "extends": ["next", "prettier"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "prefer-const": "error",
+    "no-debugger":"error",
+    "arrow-spacing":"warn",
+    "max-lines":["warn", 250]
+  }
+}

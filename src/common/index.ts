@@ -1,0 +1,1 @@
+export { default as PEIImage } from './peIImage';
