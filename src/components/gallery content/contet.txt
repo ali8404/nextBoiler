@@ -1,0 +1,131 @@
+  <div style={{
+          display: 'block', padding: 20, borderRadius: '8px',
+          boxShadow: '0 3px 10px rgb(0 0 0 / 20%)'
+        }}>
+          <div ><p>Latest News</p></div>
+          <div className={styles.heroContent}>
+            <PEIImage
+              src={'/gallery1.png'}
+              alt="Picture of the Company"
+              height={500}
+              width={700}
+
+            />
+            <div style={{ display: 'flex', flexDirection: 'column', padding: '0 10px 0 10px', flex: '50%' }}>
+              <p>Positive PE returns</p>
+              <div style={{ margin: '8px 0 8px 0' }}>
+                <p style={{ display: 'contents' }}>What is Lorem Ipsum in English? Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin dolorem ipsum roughly translated as pain itself What is Lorem Ipsum in English? Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin dolorem ipsum roughly translated as pain itself What is Lorem Ipsum in English? Lorem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin dolorem ipsum roughly translated as pain itself
+                </p>
+              </div>
+              <p>read more {'>'}</p>
+            </div>
+          </div>
+          {/* cmp1 */}
+          <div className={styles.galleyContainer}>
+            <div className={styles.galleryItems}>
+              <PEIImage
+                src={'/gallery1.png'}
+                alt="Picture of the Company"
+                height={500}
+                width={500}
+
+              />
+              <p style={{ fontWeight: 'bold' }}>heading of the next image</p>
+              <p style={{ display: 'contents' }}>What is Lorem Ipsum in English?
+                Lorem ipsum, in graphical and textualoughly translated as pain itself
+              </p>
+            </div>
+            {/* cmp2 */}
+            <div className={styles.galleryItems}>
+              <PEIImage
+                src={'/gallery1.png'}
+                alt="Picture of the Company"
+                height={500}
+                width={500}
+
+              />
+              <p style={{ fontWeight: 'bold' }}>heading of the next image2</p>
+              <p style={{ display: 'contents' }}>2What is Lorem Ipsum in English?
+                Lorem ipsum, in graphical and textualoughly translated as pain itself
+              </p>
+            </div>
+            {/* cmp3 */}
+            <div className={styles.galleryItems}>
+              <PEIImage
+                src={'/gallery1.png'}
+                alt="Picture of the Company"
+                height={500}
+                width={500}
+
+              />
+              <p style={{ fontWeight: 'bold' }}>heading of the next image2</p>
+              <p style={{ display: 'contents' }}>2What is Lorem Ipsum in English?
+                Lorem ipsum, in graphical and textualoughly translated as pain itself
+              </p>
+            </div>
+            {/* cmp4 */}
+            <div className={styles.galleryItems}>
+              <PEIImage
+                src={'/gallery1.png'}
+                alt="Picture of the Company"
+                height={500}
+                width={500}
+
+              />
+              <p style={{ fontWeight: 'bold' }}>heading of the next image2</p>
+              <p style={{ display: 'contents' }}>2What is Lorem Ipsum in English?
+                Lorem ipsum, in graphical and textualoughly translated as pain itself
+              </p>
+            </div>
+          </div>
+
+          <div>shopwing 5 of 25 headlines</div>
+          <div></div>
+        </div>
+
+
+
+
+
+
+
+
+CSS
+
+
+
+.heroContent {
+  display: flex;
+  padding: 10px 10px 10px 0
+}
+
+.galleyContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galleryItems {
+  flex: 25%;
+  padding: 15px 20px 20px 0;
+}
+
+@media screen and (max-width: 320px) {
+  .heroContent {
+    display: block;
+  }
+
+  .galleyContainer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroContent {
+    display: block;
+  }
+
+  .galleryItems {
+    flex: 50%;
+  }
+}s
+
